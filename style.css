@@ -66,3 +66,50 @@ p {
 .nav-links a:hover {
     color: #c9a66b;
 }
+/* =========================
+   HERO SECTION
+   ========================= */
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #f4ead5;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.eyebrow {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #6b1e2e;
+    margin: 20px 0;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin: 25px auto;
+    max-width: 700px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background-color: #6b1e2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.hero-button:hover {
+    background-color: #8b5a2b;
+}
