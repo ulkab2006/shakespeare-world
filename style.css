@@ -113,3 +113,71 @@ p {
 .hero-button:hover {
     background-color: #8b5a2b;
 }
+/* =========================
+   EXPLORATION CARDS
+   ========================= */
+
+.explore {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.explore .section-label {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.explore h2 {
+    color: #8b5a2b;
+    margin-bottom: 45px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: #fffaf0;
+    padding: 30px 25px;
+    border: 1px solid #d8c3a5;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #6b1e2e;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 0 auto 20px;
+}
+
+.card a {
+    color: #6b1e2e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #8b5a2b;
+    text-decoration: underline;
+}
