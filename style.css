@@ -181,3 +181,74 @@ p {
     color: #8b5a2b;
     text-decoration: underline;
 }
+/* =========================
+   PLAYS SECTION
+   ========================= */
+
+.plays-section {
+    padding: 90px 30px;
+    background-color: #211a16;
+    color: #f5f1e8;
+    text-align: center;
+}
+
+.plays-section .section-label {
+    color: #c9a66b;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.plays-section h2 {
+    color: #f5f1e8;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.section-intro {
+    max-width: 750px;
+    margin: 0 auto 60px;
+    font-size: 18px;
+}
+
+.play-category {
+    max-width: 1200px;
+    margin: 0 auto 65px;
+}
+
+.play-category h3 {
+    color: #c9a66b;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.play-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.play-card {
+    background-color: #f4ead5;
+    color: #2b1b17;
+    padding: 30px 25px;
+    border-radius: 8px;
+    border: 1px solid #8b6f47;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.play-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.play-card h4 {
+    color: #6b1e2e;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.play-card p {
+    font-size: 16px;
+    margin: 0 auto;
+}
