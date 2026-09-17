@@ -335,3 +335,31 @@ p {
     font-size: 24px;
     margin-bottom: 15px;
 }
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    padding: 60px 30px;
+    background-color: #211a16;
+    color: #f5f1e8;
+    text-align: center;
+}
+
+footer h3 {
+    color: #c9a66b;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+}
+
+footer .copyright {
+    font-size: 14px;
+    color: #c9a66b;
+    margin-top: 25px;
+}
